@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: SocialScreen(),
       theme: ThemeData(
         brightness: Brightness.light,
         iconTheme: IconThemeData(
